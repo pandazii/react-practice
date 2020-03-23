@@ -19,7 +19,6 @@ export default function Dashboard() {
         );
 
         const items = await data.json();
-        console.log(items);
         setItems(items);
     };
 
