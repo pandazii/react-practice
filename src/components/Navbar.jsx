@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Nav() {
+export default function Navbar({user}) {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-dark">

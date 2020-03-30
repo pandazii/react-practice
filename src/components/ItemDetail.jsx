@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function ItemDetail({ match }) {
+export default function ItemDetail({ match }) {
     useEffect(() => {
         fetchItem();
     }, []);
@@ -22,4 +22,3 @@ function ItemDetail({ match }) {
     )
 }
 
-export default ItemDetail;
